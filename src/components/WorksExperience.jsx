@@ -1,51 +1,23 @@
-import { Pin } from "lucide-react";
 import React from "react";
 import { MdWork } from "react-icons/md";
 import { TfiLocationPin } from "react-icons/tfi";
+import PersonalProject from "./PersonalProject";
 
-const Experience = () => {
+const WorksExperience = () => {
   return (
     <section className="mb-6">
-      {/* Personal Projects */}
-      <div className="mt-4">
-        <h2 className="flex gap-2 items-center text-2xl font-semibold border-b-2 border-gray-300 pb-2">
-          <Pin color="red" /> Personal Projects
-        </h2>
-        <p className="font-bold py-4">5 Jan - Present</p>
-        <h3 className="font-bold">
-          Full Stack Real-Time Chat App (In Progress):
-        </h3>
-        <ul className="list-disc ml-6 my-3">
-          <li>
-            Tech: React, Tailwind CSS, Node.js, Express, MongoDB, Zustand,
-            Cloudinary
-          </li>
-          <li>Features: Real-time messaging, image uploads, authentication</li>
-        </ul>
-        <h3 className="font-bold">Product Store (CRUD & Deployment)</h3>
-        <ul className="list-disc ml-6 my-3">
-          <li>Tech: React, Chakra UI, Zustand, Node.js, MongoDB</li>
-          <li>
-            Features: Full CRUD functionality, image uploads, cloud hosting on
-            Render.com{" "}
-          </li>
-        </ul>
-        <h3 className="font-bold">Full Stack Blog System Tech:</h3>
-        <ul className="list-disc ml-6 my-3">
-          <li>React, Tailwind CSS, Node.js, PostgreSQL, Sequelize</li>
-        </ul>
-      </div>
+      <PersonalProject />
 
       {/* Works Experience */}
       <h2 className="flex gap-2 items-center text-2xl font-semibold border-b-2 border-gray-300 pb-2">
         <MdWork color="brown" /> Work Experience
       </h2>
 
-      {/* Topvalue */}
+      {/* Topvalue Corporate Ltd. */}
       <div className="mt-4">
         <h3 className="text-2xl font-bold pb-2">Topvalue Corporate Ltd.</h3>
         <p className="font-bold">
-          Full Stack Developer | (Sep 2017 - Jan 2025) 7 Years 5 Months
+          Full Stack Developer | Sep 2017 - 5 Jan 2025 ( 7 Years 5 Months )
         </p>
         <p className="flex flex-row items-center gap-2 text-gray-600">
           {" "}
@@ -159,13 +131,13 @@ const Experience = () => {
         </ul>
       </div>
 
-      {/* iBusiness */}
+      {/* iBusiness Corporation */}
       <div className="mt-4">
         <h3 className="text-2xl font-bold pb-2">
           iBusiness Corporation Co., Ltd.
         </h3>
         <p className="font-bold">
-          PHP Developer | (June 2013 - Aug 2017) 4 Years 3 Months
+          PHP Developer | June 2013 - Aug 2017 ( 4 Years 3 Months )
         </p>
         <p className="flex flex-row items-center gap-2 text-gray-600">
           {" "}
@@ -206,4 +178,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default WorksExperience;

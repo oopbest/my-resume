@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Experience from "./components/Experience";
+import WorksExperience from "./components/WorksExperience";
 import TechStack from "./components/TechStack";
 
 export default function Resume() {
@@ -12,7 +12,10 @@ export default function Resume() {
         transition={{ duration: 0.5 }}
         className="text-center mb-8"
       >
-        <h1 className="text-4xl font-bold text-gray-800">Setthawut Pimthong</h1>
+        <h1 className="text-4xl font-bold text-gray-800 pb-4">
+          Setthawut Pimthong
+        </h1>
+        <p>Information Technology, Rangsit University</p>
         <p className="text-lg text-gray-600">
           Web Developer | Frontend Developer | Fullstack Developer
         </p>
@@ -45,14 +48,14 @@ export default function Resume() {
         <TechStack />
       </motion.section>
 
-      {/* Experience Section */}
+      {/* WorksExperience Section */}
       <motion.section
         initial={{ opacity: 0, x: 20 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.5, delay: 0.4 }}
         className="mb-8"
       >
-        <Experience />
+        <WorksExperience />
       </motion.section>
 
       {/* Contact Section */}

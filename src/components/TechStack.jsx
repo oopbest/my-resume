@@ -39,6 +39,9 @@ const TechStack = () => {
           <strong>Learning:</strong> Flutter (Dart), React Native, Golang,
           NestJS
         </li>
+        <li>
+          <strong>AI Coding Assistant:</strong> Codeium, Github Copilot
+        </li>
       </ul>
     </section>
   );
