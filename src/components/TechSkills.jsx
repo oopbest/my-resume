@@ -10,7 +10,7 @@ const TechSkills = () => {
       <ul className="flex flex-col gap-3 mt-2 text-gray-700">
         <li>
           <strong>Frontend:</strong> React, Next.js (12, 14, 15), TypeScript,
-          Javascript (ES6+) Bootstrap, Tailwind CSS, Chakra UI, DaisyUI
+          Javascript (ES6+), Bootstrap, Tailwind CSS, Chakra UI, DaisyUI
         </li>
         <li>
           <strong>State Management:</strong> Redux, Redux Toolkit, Zustand
