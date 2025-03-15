@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import WorksExperience from "./components/WorksExperience";
-import TechStack from "./components/TechStack";
+import TechSkills from "./components/TechSkills";
+import Educations from "./components/Educations";
 
 export default function Resume() {
   return (
@@ -15,9 +16,11 @@ export default function Resume() {
         <h1 className="text-4xl font-bold text-gray-800 pb-4">
           Setthawut Pimthong
         </h1>
-        <p>Information Technology, Rangsit University</p>
-        <p className="text-lg text-gray-600">
-          Web Developer | Frontend Developer | Fullstack Developer
+        <p>
+          <strong>Date of Birth:</strong> 31 May 1988{" "}
+        </p>
+        <p>
+          <strong>Education:</strong> Information Technology, Rangsit University
         </p>
       </motion.header>
 
@@ -28,6 +31,9 @@ export default function Resume() {
         transition={{ duration: 0.5, delay: 0.2 }}
         className="mb-8"
       >
+        <h3 className="text-xl text-center font-bold text-gray-600 pb-4">
+          Web Developer | Frontend Developer | Full-stack Developer
+        </h3>
         <p className="text-gray-700">
           A highly skilled Full-Stack Developer with 11+ years of experience in
           developing and optimizing web applications. Proficient in both
@@ -45,7 +51,7 @@ export default function Resume() {
         transition={{ duration: 0.5, delay: 0.6 }}
         className="mb-8"
       >
-        <TechStack />
+        <TechSkills />
       </motion.section>
 
       {/* WorksExperience Section */}
@@ -58,16 +64,15 @@ export default function Resume() {
         <WorksExperience />
       </motion.section>
 
-      {/* Contact Section */}
-      {/* <motion.section
+      {/* Education Section */}
+      <motion.section
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.8 }}
-        className="max-w-2xl mb-8"
+        className="mb-8"
       >
-        <h2 className="text-2xl font-semibold text-gray-800 mb-2">Contact</h2>
-        <p className="text-gray-700">Email: johndoe@example.com</p>
-      </motion.section> */}
+        <Educations />
+      </motion.section>
 
       {/* Download Button */}
       {/* <motion.div

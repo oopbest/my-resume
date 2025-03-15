@@ -7,7 +7,7 @@ const Summary = () => {
         Summary
       </h2>
       <p className="text-gray-700 mt-2">
-        Experienced Full Stack Developer with 11+ years in web development,
+        Experienced Full-Stack Developer with 11+ years in web development,
         specializing in React, Next.js, TypeScript, and Node.js. Passionate
         about frontend optimization, API integration, and CI/CD automation.
       </p>

@@ -17,7 +17,7 @@ const WorksExperience = () => {
       <div className="mt-4">
         <h3 className="text-2xl font-bold pb-2">Topvalue Corporate Ltd.</h3>
         <p className="font-bold">
-          Full Stack Developer | Sep 2017 - 5 Jan 2025 ( 7 Years 5 Months )
+          Full-Stack Developer | Sep 2017 - 5 Jan 2025 ( 7 Years 5 Months )
         </p>
         <p className="flex flex-row items-center gap-2 text-gray-600">
           {" "}
@@ -34,8 +34,8 @@ const WorksExperience = () => {
             tech Stacksnologies.
           </li>
           <li>
-            Managed project timelines and priorities, ensuring alignment with
-            business objectives.
+            Managed project <strong>timelines and priorities</strong>, ensuring
+            alignment with business objectives.
           </li>
           <li>
             Developed and maintained <strong>e-commerce platforms</strong> using{" "}
