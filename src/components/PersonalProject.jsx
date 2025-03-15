@@ -13,23 +13,37 @@ const PersonalProject = () => {
       </h3>
       <ul className="list-disc ml-6 my-3">
         <li>
-          Tech: React, Tailwind CSS, Daisy UI, Node.js, Express, MongoDB,
+          Tech Stacks: React, Tailwind CSS, Daisy UI, Node.js, Express, MongoDB,
           Mongoose, Zustand, Cloudinary
         </li>
         <li>Features: Real-time messaging, image uploads, authentication</li>
       </ul>
       <h3 className="font-bold">Product Store (CRUD & Deployment)</h3>
       <ul className="list-disc ml-6 my-3">
-        <li>Tech: React, Chakra UI, Zustand, Node.js, MongoDB, Mongoose</li>
+        <li>
+          Tech Stacks: React, Chakra UI, Zustand, Node.js, MongoDB, Mongoose
+        </li>
         <li>
           Features: Full CRUD functionality, image uploads, cloud hosting on
           Render.com{" "}
         </li>
       </ul>
-      <h3 className="font-bold">Full Stack Blog System Tech:</h3>
+      <h3 className="font-bold">Full Stack Blog System</h3>
       <ul className="list-disc ml-6 my-3">
-        <li>React, Tailwind CSS, Node.js, PostgreSQL, Sequelize</li>
+        <li>
+          Tech Stacks: React, Tailwind CSS, Node.js, PostgreSQL, Sequelize
+        </li>
         <li>Features: Full CRUD functionality</li>
+      </ul>
+      <h3 className="font-bold">React Native Application</h3>
+      <ul className="list-disc ml-6 my-3">
+        <li>Feartures: Simple page created using React Native</li>
+      </ul>
+      <h3 className="font-bold">Flutter Application</h3>
+      <ul className="list-disc ml-6 my-3">
+        <li>
+          Features: Simple form created with stateful widgets using Flutter
+        </li>
       </ul>
     </div>
   );

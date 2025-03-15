@@ -31,7 +31,7 @@ const WorksExperience = () => {
             Designed, developed and maintained software solutions using Next.js,
             React, Redux, Redux Toolkit, Typescript, Javascript, Bootstrap,
             Tailwind CSS, RESTful APIs, PHP, MySQL, Magento1, Magento2 and other
-            technologies.
+            tech Stacksnologies.
           </li>
           <li>
             Managed project timelines and priorities, ensuring alignment with
@@ -71,8 +71,8 @@ const WorksExperience = () => {
             Alectric, Namiko, Cocugu, Fennix)
             <ul className="list-disc ml-6">
               <li>
-                Tech: Next.js 14, TypeScript, Tailwind CSS, PHP (Magento 2),
-                MySQL
+                Tech Stacks: Next.js 14, TypeScript, Tailwind CSS, PHP (Magento
+                2), MySQL
               </li>
             </ul>
           </li>
@@ -80,15 +80,15 @@ const WorksExperience = () => {
             <strong>E-commerce website - topvalue.com</strong> (Electronics)
             <ul className="list-disc ml-6">
               <li>
-                Tech: Next.js 12, Redux Toolkit, NextAuth.js, PHP (Magento 2),
-                MySQL, Google Cloud Platform
+                Tech Stacks: Next.js 12, Redux Toolkit, NextAuth.js, PHP
+                (Magento 2), MySQL, Google Cloud Platform
               </li>
             </ul>
           </li>
           <li>
             <strong>CJ Easy Shopping</strong>
             <ul className="list-disc ml-6">
-              <li>Tech: React, Bootstrap, PHP (Magento 2), MySQL</li>
+              <li>Tech Stacks: React, Bootstrap, PHP (Magento 2), MySQL</li>
             </ul>
           </li>
           <li>
@@ -97,36 +97,44 @@ const WorksExperience = () => {
               Import,Export (First React Project)
             </strong>
             <ul className="list-disc ml-6">
-              <li>Tech: React, Bootstrap, Laravel, Firebase</li>
+              <li>Tech Stacks: React, Bootstrap, Laravel, Firebase</li>
             </ul>
           </li>
           <li>
             <strong>POS System (Offline store management)</strong>
             <ul className="list-disc ml-6">
-              <li>Tech: PHP (Magento 2), MySQL, Docker</li>
+              <li>Tech Stacks: PHP (Magento 2), MySQL, Docker</li>
             </ul>
           </li>
           <li>
             <strong>E-commerce website - topcosme.com</strong> (Cosmetics &
             Beauty)
             <ul className="list-disc ml-6">
-              <li>Tech: PHP (Magento 1), MySQL</li>
-            </ul>
-          </li>
-          <li>
-            <strong>Integrate Payment Gateway e.g., 2C2P API, Omise API</strong>
-            <ul className="list-disc ml-6">
-              <li>Topvalue version 2 Magento2 (Omise)</li>
-              <li>Topvalue version 1 Magento1 (2c2p)</li>
+              <li>Tech Stacks: PHP (Magento 1), MySQL</li>
             </ul>
           </li>
           <li>
             <strong>
-              Integrate Payment Gateway e.g., TBANK, KBANK, SCB, BAY, BBL
+              Integrated Payment Gateway e.g., 2C2P API, Omise API
+            </strong>
+            <ul className="list-disc ml-6">
+              <li>Topvalue v.2 Magento2 (Omise)</li>
+              <li>Topvalue v.1 Magento1 (2c2p)</li>
+            </ul>
+          </li>
+          <li>
+            <strong>
+              Integrated Direct Bank Payment Gateway and installment payment (
+              e.g., TBANK, KBANK, SCB, BAY, BBL )
             </strong>
           </li>
           <li>
-            <strong>Develop and Integreate Modules (Magento V1, V2)</strong>
+            <strong>
+              Developed and Integreated modules for Magento 1, Magento 2
+            </strong>
+            <ul className="list-disc ml-6">
+              <li>Tech Stacks: PHP (Magento 1, 2), MySQL</li>
+            </ul>
           </li>
         </ul>
       </div>
@@ -149,7 +157,7 @@ const WorksExperience = () => {
         <ul className="list-disc ml-6 my-4">
           <li>
             Designed, developed, and deployed web applications for clients using
-            various technologies, including using PHP, MySQL, HTML, CSS,
+            various tech Stacksnologies, including using PHP, MySQL, HTML, CSS,
             Javascript, jQuery, Ajax, SOAP, XML, Bootstrap and responsive
             design.
           </li>
