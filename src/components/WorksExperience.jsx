@@ -77,7 +77,8 @@ const WorksExperience = () => {
             </ul>
           </li>
           <li>
-            <strong>E-commerce website - topvalue.com</strong> (Electronics)
+            <strong>Topvalue E-commerce website - topvalue.com</strong>{" "}
+            (Electronics)
             <ul className="list-disc ml-6">
               <li>
                 Tech Stacks: Next.js 12, Redux Toolkit, NextAuth.js, PHP
@@ -86,14 +87,14 @@ const WorksExperience = () => {
             </ul>
           </li>
           <li>
-            <strong>CJ Easy Shopping</strong>
+            <strong>Topvalue & CJ Easy Shopping</strong>
             <ul className="list-disc ml-6">
               <li>Tech Stacks: React, Bootstrap, PHP (Magento 2), MySQL</li>
             </ul>
           </li>
           <li>
             <strong>
-              Dashboard Realtime Monitoring, Promotions Report can be
+              Topvalue Dashboard Realtime Monitoring, Promotions Report can be
               Import,Export (First React Project)
             </strong>
             <ul className="list-disc ml-6">
