@@ -8,17 +8,20 @@ const PersonalProject = () => {
         <Pin color="red" /> Personal Projects
       </h2>
       <h2 className="font-bold py-4 text-xl">5 Jan 2025 - Present</h2>
-      <h3 className="font-bold">
-        Full-Stack Real-Time Chat App (In Progress):
-      </h3>
+      <h3 className="font-bold">Full-Stack Real-Time Chat App (MERN Stack):</h3>
       <ul className="list-disc ml-6 my-3">
         <li>
           Tech Stacks: React, Tailwind CSS, Daisy UI, Node.js, Express, MongoDB,
           Mongoose, Zustand, Cloudinary
         </li>
-        <li>Features: Real-time messaging, image uploads, authentication</li>
+        <li>
+          Features: Real-time messaging, image uploads, authentication, cloud
+          hosting on Render.com
+        </li>
       </ul>
-      <h3 className="font-bold">Product Store (CRUD & Deployment)</h3>
+      <h3 className="font-bold">
+        Product Store CRUD & Deployment (MERN Stack)
+      </h3>
       <ul className="list-disc ml-6 my-3">
         <li>
           Tech Stacks: React, Chakra UI, Zustand, Node.js, MongoDB, Mongoose
