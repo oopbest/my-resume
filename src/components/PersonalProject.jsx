@@ -20,7 +20,7 @@ const PersonalProject = () => {
         </li>
       </ul>
       <h3 className="font-bold">
-        Product Store CRUD & Deployment (MERN Stack)
+        Full-stack a Product Store CRUD & Deployment (MERN Stack)
       </h3>
       <ul className="list-disc ml-6 my-3">
         <li>
@@ -31,7 +31,7 @@ const PersonalProject = () => {
           Render.com{" "}
         </li>
       </ul>
-      <h3 className="font-bold">Full-Stack Blog System</h3>
+      <h3 className="font-bold">Full-stack simple project - Blogs (CRUD)</h3>
       <ul className="list-disc ml-6 my-3">
         <li>
           Tech Stacks: React, Tailwind CSS, Node.js, PostgreSQL, Sequelize
